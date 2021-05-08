@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/settings_newPlace" android:title="New place"></item>
+    <item android:id="@+id/settings_chatting" android:title="Chatting"></item>
+    <item android:id="@+id/settings_notification" android:title="Crypto Currencies"></item>
+    <item android:id="@+id/settings_signOut" android:title="Sign out"></item>
+
+</menu>

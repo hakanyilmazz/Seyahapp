@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.LoginActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/loginActivity_jakeIcon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/jake_icon"
+        android:layout_marginBottom="20dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/loginActivity_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="30dp">
+
+        <EditText
+            android:id="@+id/loginActivity_emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_vector"
+            android:ems="10"
+            android:layout_marginBottom="40dp"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="25dp" />
+
+        <EditText
+            android:id="@+id/loginActivity_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/rounded_vector"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loginActivity_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/loginActivity_loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="LOGIN"
+            android:onClick="login">
+
+        </Button>
+
+        <Button
+            android:id="@+id/loginActivity_signUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="SIGN UP"
+            android:onClick="signUp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
