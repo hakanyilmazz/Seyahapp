@@ -1,7 +1,9 @@
 # Seyahapp
  Travel, Chatting And Crypto Currencies
 
-### Loading..
+### Application
+
+
 If you run this project, </br>
 1. You need to google maps api for in debug folder google_maps_api.xml file.</br>
 2. Also you need to google_services.json file for firebase in app folder.
