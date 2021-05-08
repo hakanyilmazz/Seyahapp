@@ -12,7 +12,7 @@ If you want to run this project, </br>
 1. Generate unique public id. </br>
 2. Get public id numbers' average. </br>
 3. Generate a random number from 0 to 100. </br>
-4. Xor key = andom number + public id's average. </br>
+4. Xor key = random number + public id's average. </br>
 5. Generate sha256 for message verification . </br>
 6. Get encrypted message with xor key and xor algorithm. </br>
 7. Send encrypted message + sha256 + public id
