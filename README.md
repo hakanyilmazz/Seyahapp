@@ -2,7 +2,7 @@
  Travel, Chatting And Crypto Currencies
 
 ### Application
-
+<img src="https://github.com/hakanyilmazz/Seyahapp/blob/main/ScreenShots/seyahapp.gif" height="48"></br>
 
 If you run this project, </br>
 1. You need to google maps api for in debug folder google_maps_api.xml file.</br>
