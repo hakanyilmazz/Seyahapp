@@ -4,7 +4,7 @@
 ### Application
 <img src="https://github.com/hakanyilmazz/Seyahapp/blob/main/ScreenShots/seyahapp.gif" height="500"></br>
 
-If you run this project, </br>
+If you want to run this project, </br>
 1. You need to google maps api for in debug folder google_maps_api.xml file.</br>
 2. Also you need to google_services.json file for firebase in app folder.
 
